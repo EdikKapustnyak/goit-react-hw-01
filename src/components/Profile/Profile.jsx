@@ -1,6 +1,5 @@
 import clsx from "clsx";
 import css from "../Profile/Profile.module.css";
-
 export default function Profile({ username, tag, avatar, location, stats }) {
   return (
     <div className={clsx(css.container)}>
